@@ -9,5 +9,3 @@ attr_writer :mood
 end
 
   # code goes here
-
-
