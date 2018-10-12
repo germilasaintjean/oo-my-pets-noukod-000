@@ -60,7 +60,7 @@ def buy_dog name
 
   def sell_pets
     pets.each do |species, animals|
-      animals.each do |animal|
+      animals.each do |animals|
         animal.mood = "nervous"
       end
       animals.clear
@@ -70,6 +70,7 @@ def buy_dog name
   def say_species
     "I am a #{species}."
   end
+  
   def list_pets
     "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
   end
