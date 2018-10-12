@@ -1,5 +1,5 @@
 class Cat
-  
+
 attr_reader :name
 attr_writer :mood
 
@@ -10,5 +10,3 @@ attr_writer :mood
 end
 
   # code goes here
-
-
